@@ -1,0 +1,16 @@
+
+:root{
+  --accent-pink: #ff6fa3;
+  --accent-blue: #4da6ff;
+  --bg: #ffffff;
+  --text: #000000;
+}
+body{background:var(--bg);color:var(--text);font-family:system-ui,Arial,Helvetica,sans-serif;}
+.navbar-custom{background:var(--accent-blue);transition: all .3s ease;}
+.navbar-custom.shrink{padding-top:4px;padding-bottom:4px;background:#3aa0ff;}
+.btn-pink{background:var(--accent-pink);border:none;color:#fff;}
+.card-img-top{height:220px;object-fit:cover;}
+.footer{background:#f8f9fa;padding:20px 0;margin-top:30px;}
+.masked{font-weight:600;}
+@media (max-width:576px){ .card-img-top{height:160px;} }
+.container{max-width:1100px;}
